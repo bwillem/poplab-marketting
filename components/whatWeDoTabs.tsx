@@ -1,4 +1,6 @@
-import { Tabs, Tab, TabList, TabPanels, TabPanel } from '@chakra-ui/react'
+import { Tabs, Tab, TabList, TabPanels, TabPanel, Stack } from '@chakra-ui/react'
+import H2 from './h2'
+import P from './p'
 
 const data = [
 	{
@@ -31,7 +33,9 @@ function WhatWeDo(props) {
 		>
 			<TabList w='50%'>
 				{data.map(d => (
-					<Tab>
+					<Tab
+						key={d.title}
+					>
 						{d.title}
 					</Tab>
 				))}
@@ -40,13 +44,22 @@ function WhatWeDo(props) {
 				p={8}
 				bg='black'
 				borderRadius='md'
+				{...props}
 			>
 				{data.map((d, i) => (
 					<TabPanel
-						mt={`${35 * i}px`}
+						mt={`${23 * i}px`}
 						color='white'
+						key={d.title}
 					>
-						{d.description}
+						<Stack>
+							<H2>
+								{d.title}
+							</H2>
+							<P>
+								{d.description}
+							</P>
+						</Stack>
 					</TabPanel>
 				))}
 			</TabPanels>

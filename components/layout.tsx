@@ -74,6 +74,7 @@ function Layout({ children }) {
 					<ModalHeader
 						fontSize={40}
 						fontWeight={800}
+						color='#0085FF'
 					>
 						Connect with us
 					</ModalHeader>

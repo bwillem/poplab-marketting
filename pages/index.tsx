@@ -100,21 +100,41 @@ function Home() {
           </Stack>
         </Container>
       </Box>
-      <Container py={40}>
-        <Stack mb={16} spacing={14}>
-          <Eyebrow>
-            What we do
-          </Eyebrow>
-          <H1
-            as='h3'
-            color='black'
-            maxW='428px'
-          >
-            We bring scalable human-centric design to brands and startups
-          </H1>
-        </Stack>
-        <WhatWeDo />
-      </Container>
+      <Box
+        position='relative'
+        _before={{
+          content: '""',
+          bg: 'gray.50',
+          top: 0,
+          left: 0,
+          right: 0,
+          width: '100%',
+          height: '100%',
+          position: 'absolute',
+          clipPath: 'polygon(66% 0, 100% 0, 100% 100%, 33% 100%);',
+        }}
+      >
+        <Container
+          py={40}
+          zIndex={2}
+        >
+          <Stack mb={16} spacing={14}>
+            <Eyebrow>
+              What we do
+            </Eyebrow>
+            <H1
+              as='h3'
+              color='black'
+              maxW='428px'
+            >
+              We bring scalable human-centric design to brands and startups
+            </H1>
+          </Stack>
+          <WhatWeDo
+            zIndex={2}
+          />
+        </Container>
+      </Box>
       <Box bg='black'>
         <Container>
           <Footer />
