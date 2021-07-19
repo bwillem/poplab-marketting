@@ -1,0 +1,10 @@
+<svg viewBox="0 0 301 435" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="a" fill="#fff">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 14h274v374h-274V14zm277-13c5.523 0 10 4.477 10 10v413c0 5.523-4.477 10-10 10h-280c-5.523 0-10-4.477-10-10V11c0-5.523 4.477-10 10-10h280z"/>
+  </mask>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 14h274v374h-274V14zm277-13c5.523 0 10 4.477 10 10v413c0 5.523-4.477 10-10 10h-280c-5.523 0-10-4.477-10-10V11c0-5.523 4.477-10 10-10h280z" fill="#000"/>
+  <path d="M287.5 14h2v-2h-2v2zm-274 0v-2h-2v2h2zm274 374v2h2v-2h-2zm-274 0h-2v2h2v-2zm274-376h-274v4h274v-4zm2 376V14h-4v374h4zm-276 2h274v-4h-274v4zm-2-376v374h4V14h-4zm291-3c0-6.627-5.373-12-12-12v4a8 8 0 018 8h4zm0 413V11h-4v413h4zm-12 12c6.627 0 12-5.373 12-12h-4a8 8 0 01-8 8v4zm-280 0h280v-4h-280v4zm-12-12c0 6.627 5.373 12 12 12v-4a8 8 0 01-8-8h-4zm0-413v413h4V11h-4zm12-12c-6.627 0-12 5.373-12 12h4a8 8 0 018-8v-4zm280 0h-280v4h280v-4z" fill="#787878" mask="url(#a)"/>
+  <rect x="300.5" y="1" width="433" height="300" rx="10" transform="rotate(90 300.5 1)" stroke="#787878" stroke-linecap="round"/>
+  <circle cx="150.5" cy="410" r="12" transform="rotate(90 150.5 410)" stroke="#787878" stroke-width="2"/>
+  <circle cx="150.5" cy="29" r="4" transform="rotate(90 150.5 29)" fill="#5C5C5C"/>
+</svg>
