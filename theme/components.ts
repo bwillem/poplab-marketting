@@ -65,7 +65,7 @@ export default {
 					paddingBottom: 6,
 					fontSize: 'lg',
 					fontWeight: 'bold',
-					color: 'gray.500',
+					color: 'gray.300',
 					_selected: {
 						color: 'black',
 					},

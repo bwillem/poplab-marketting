@@ -17,7 +17,7 @@ const data = [
 	},
 	{
 		title: 'Develop',
-		description: 'Our in-house development team goes to work. We use industry leading tech stacks with a focus on performance, security, and scalability.'
+		description: 'Our in-house development team goes to work. We use industry leading tech with a focus on performance, security, and scalability.'
 	},
 	{
 		title: 'Launch',

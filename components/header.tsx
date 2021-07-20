@@ -50,10 +50,15 @@ function Header({ openModal }) {
 					direction='row'
 					spacing={6}
 				>
-					<NavLink>
+					<NavLink
+						as='a'
+						href='#about'
+					>
 						about
 					</NavLink>
-					<NavLink onClick={openModal}>
+					<NavLink
+						onClick={openModal}
+					>
 						contact
 					</NavLink>
 				</Stack>

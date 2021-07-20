@@ -117,8 +117,12 @@ function Home() {
         <Container
           py={40}
           zIndex={2}
+          id='about'
         >
-          <Stack mb={16} spacing={14}>
+          <Stack
+            mb={16}
+            spacing={14}
+          >
             <Eyebrow>
               What we do
             </Eyebrow>
