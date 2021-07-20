@@ -81,7 +81,7 @@ function Layout({ children }) {
 					<ModalBody>
 						<Stack spacing={8}>
 							<P color='black'>
-								Email <chakra.span fontWeight={500} color='brand.default'>hello@poplab.design</chakra.span>, or use this form to tell us about your project.
+								Email <chakra.span fontWeight={500} color='secondary.default'>hello@poplab.design</chakra.span>, or use this form to tell us about your project.
 							</P>
 							<Textarea
 								id='message'
@@ -106,7 +106,7 @@ function Layout({ children }) {
 							<Button
 								size='sm'
 								leftIcon={<FiSend />}
-								variant='brand'
+								variant='secondary'
 								type='submit'
 							>
 								Submit

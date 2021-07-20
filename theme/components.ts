@@ -11,6 +11,16 @@ export default {
 					color: 'brand.default',
 				},
 			},
+			secondary: {
+				bg: 'secondary.default',
+				color: 'white',
+				borderWidth: '1px',
+				borderColor: 'secondary.default',
+				_hover: {
+					bg: 'white',
+					color: 'secondary.default',
+				},
+			},
 		},
 	},
 	Input: {
@@ -18,11 +28,11 @@ export default {
 			outline: {
 				field: {
 					_focus: {
-						borderColor: 'brand.default',
+						borderColor: 'secondary.default',
 						boxShadow: `none`,
 					},
 					_hover: {
-						borderColor: 'brand.default',
+						borderColor: 'secondary.default',
 					},
 				},
 			},
@@ -32,11 +42,11 @@ export default {
 		variants: {
 			outline: {
 				_focus: {
-					borderColor: 'brand.default',
+					borderColor: 'secondary.default',
 					boxShadow: `none`,
 				},
 				_hover: {
-					borderColor: 'brand.default',
+					borderColor: 'secondary.default',
 				},
 			},
 		},

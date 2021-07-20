@@ -9,6 +9,12 @@ export default extendTheme({
 			default: '#FF00B8',
 			dark: '#E1009A',
 		},
+		secondary: {
+			lighter: '#93CBFF',
+			light: '#28A3FF',
+			default: '#0085FF',
+			dark: '#0067D7',
+		},
 		gray: {
 			50: "#F7F7F7",
 			100: "#EDEDED",
