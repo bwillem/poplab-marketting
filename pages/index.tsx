@@ -16,7 +16,6 @@ function Home() {
     <>
       <Box bg='black'>
         <Container>
-
           <Stack
             align='center'
             spacing={20}

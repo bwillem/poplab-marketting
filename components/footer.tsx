@@ -17,7 +17,7 @@ function Footer() {
 				© Poplab {new Date().getFullYear()}
 			</P>
 			<P color='gray.500'>
-				hello@poplab.design
+				bryan@poplab.tech
 			</P>
 			{/* <Heading
 				as='h2'
